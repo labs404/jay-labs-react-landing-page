@@ -1,12 +1,67 @@
+body {
+    background-color: #110000;
+}
 
-/* 
+@media (min-width: 992px) { 
+    .navbar-brand {
+        width: 100%;
+    }
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.cardImage {
+    margin: 0px;
+    padding: 0px;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    width: 100%;
+}
 
-*/
+.jaysCard {
+    border: solid 2px #440000 !important;
+}
+
+.jaysFooter {
+    border-top: solid 2px #440000 !important;
+}
+
+.jaysCard div p {
+    font-size: 12px;    
+    color: #AA4444;
+    text-transform: capitalize;
+}
+
+.jaysCard div h5 {
+    color: #882222;
+}
+
+#jumbotron p {
+    font-size: 25px;    
+    color: #CCCCCC;
+    text-transform: capitalize;
+}
+
+#jumbotron h5 {
+    font-size: 50px;  
+    color: #882222;
+    font-weight: 700;
+}
+
+.jaysNavBar {
+    border-bottom: solid 2px #440000 !important;
+}
+
+a:link {
+    text-decoration: none;
+}
+  
+a:visited {
+    text-decoration: none;
+}
+  
+a:hover {
+    text-decoration: underline;
+}
+  
+a:active {
+    text-decoration: underline;
+}
