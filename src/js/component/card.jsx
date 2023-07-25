@@ -4,8 +4,8 @@ import React from "react";
 const posts = [
 	{
 		postName: "PRETTY HATE MACHINE",
-		postDescription: "1989 - NINE INCH NAILS’ CLASSIC FIRST RECORD, PRODUCED BY TRENT REZNOR WITH FLOOD, JOHN FRYER, KEITH LEBLANC AND ADRIAN SHERWOOD.",
-		postImage: "https://github.com/labs404/jay-labs-react-landing-page/blob/main/src/img/pretty-hate.jpg?raw=true"
+		postDescription: "1989 - NINE INCH NAILS CLASSIC FIRST RECORD, PRODUCED BY TRENT REZNOR WITH FLOOD, JOHN FRYER, KEITH LEBLANC AND ADRIAN SHERWOOD.",
+		postImage: "https://github.com/labs404/jay-labs-react-landing-page/blob/main/src/img/pretty-hate.jpg?raw=trueadded"
         // postImage: "https://www.nin.com/wp-content/uploads/2016/08/600px-Halo-2-500x500.jpg"
 	},
 	{
